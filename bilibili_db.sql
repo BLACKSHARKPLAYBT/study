@@ -11,7 +11,7 @@
  Target Server Version : 80040 (8.0.40)
  File Encoding         : 65001
 
- Date: 19/05/2025 23:21:56
+ Date: 19/05/2025 23:34:08
 */
 
 SET NAMES utf8mb4;
@@ -36,9 +36,5 @@ CREATE TABLE `user`  (
   `collection` int NOT NULL,
   PRIMARY KEY (`uid`, `live`, `followed`, `follower`, `collection`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of user
--- ----------------------------
 
 SET FOREIGN_KEY_CHECKS = 1;
